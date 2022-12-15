@@ -1,0 +1,81 @@
+html {
+    scroll-behavior: smooth;
+}  
+
+.cardcontainer{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    cursor: pointer;
+}
+
+/* aboutme css */
+
+.containercss{
+	width: 78%;
+	margin:auto;
+    overflow: hidden;
+	/* border:solid; */
+    background-color: rgb(235, 231, 231);
+    border-radius: 5px;
+}
+
+.left{
+	padding-top: 20px;
+	float: left;
+	width: 20%
+	/*border:solid;*/
+}
+
+.right{
+	padding: 4px;
+	float: right;
+	width: 75%;
+	/* border:solid; */
+}
+
+.img{
+	width: 160px;
+	height: 160px;
+	border-radius: 50%;
+	/*border:solid;*/
+}
+
+.info{
+	line-height: 0.1;
+}
+
+.containercss:hover{
+    transform: scale(1.03);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+/* contactForm */
+.containerform{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.containerform:hover{
+    transform: scale(1.03);
+    box-shadow: 0px 10px 20px rgba(0,0,0,.12), 8px 4px 8px rgba(0,0,0,.06);
+}
+
+
+/* Media Queries */
+@media(max-width: 768px){
+    .left,.right{
+        float: none;
+        width: 100%;
+        text-align: center;
+        padding: 12px;
+    }
+}
